@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const DB = 'db-ead-test'
+const DB = 'db-linux-commands'
 mongoose.connect('mongodb://localhost/' + DB)
 mongoose.Promise = require('bluebird')
 
