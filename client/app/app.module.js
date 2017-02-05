@@ -3,9 +3,7 @@
 
   angular.module('app', [
     'app.core',
-    'btford.socket-io',
-    'app.User',
-    'app.Course',
+    'app.Command',
     ])
 
   .config(config)
